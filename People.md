@@ -1,9 +1,9 @@
 ---
 layout: default
 title: People
-permalink: /research/
+permalink: /people/
 ---
 
-# Research
+# People
 
-Here is the content for the Research page.
+Here is the content for the People page.
