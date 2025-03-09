@@ -69,22 +69,38 @@ title: "Home"
             background-position: center 40%; /* Move the image 10% up from the center */
             color: white; /* Optional: Set text color to make it visible on the background */
         }
-</style>
-</head>
-<body>
-    <!-- Title Section -->
-    
-    <!-- Paragraph below the background image -->
-    <div class="intro-text">
-        <p>Welcome to the CogNetLab homepage! This is a place where cutting-edge research in cognitive computing and machine learning takes place. Stay tuned for exciting updates!</p>
-    </div>
-    <!-- Include Font Awesome for social media icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        
+        /* Content section */
+        .content {
+            flex-grow: 1; /* Makes the content take up available space */
+        }
+
+        /* Paragraph styling */
+        .intro-text {
+            font-size: 18px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0.5); /* Optional: Dark background for readability */
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
+        <!-- Title Section -->
+        <h1 style="text-align: center; color: yellow;">CogNetLab</h1>
+        
+        <!-- Content Section that takes up remaining space -->
         <div class="content">
+            <!-- This is where the background image will go -->
         </div>
+
+        <!-- Paragraph at the bottom of the page -->
+        <div class="intro-text">
+            <p>Welcome to the CogNetLab homepage! This is a place where cutting-edge research in cognitive computing and machine learning takes place. Stay tuned for exciting updates!</p>
+        </div>
+    </div>
 
         <footer>
             <!-- Social media links -->
