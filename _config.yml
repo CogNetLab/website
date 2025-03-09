@@ -20,7 +20,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "research.md", title: "Research", url: /research/}
   - {file: "people.md", title: "People", url: /people/}
   - {file: "facilities.md", title: "Facility", url: /facilities/}
-  - {file: "collaborator.md", title: "Collaborator", url: /collaborator/}
+  - {file: "collaborator.md", title: "Collaborators", url: /collaborators/}
   - {file: "codes-data.md", title: "Codes & Data", url: /codes-data/}
   - {file: "contact.md", title: "Contact", url: /contact/}
 
