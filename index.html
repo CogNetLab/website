@@ -37,7 +37,14 @@ title: "Home"
             padding: 20px;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            align-items: center; /* Center the content horizontally */
+            justify-content: center; /* Center the content vertically */
+            position: absolute; /* Position it absolutely in relation to the page */
+            top: 50%; /* Move it to the vertical center of the page */
+            left: 50%; /* Move it to the horizontal center of the page */
+            transform: translate(-50%, -50%); /* Adjust the positioning to truly center the footer */
+            text-align: center; /* Center the text */
+            width: 100%; /* Ensure it spans the full width */;
         }
 
         /* Social media links styling */
