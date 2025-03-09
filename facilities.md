@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Facility
-permalink: /facility/
+permalink: /facilities/
 ---
 
 # Facility
